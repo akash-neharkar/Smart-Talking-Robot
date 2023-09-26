@@ -1,1 +1,3 @@
 # Smart-Talking-Robot
+
+In this Project, we made a small talking robot fir kids. This was an idea abstracted from the famous game Talking Tom. This toy basically repeats whatever a person says when it detects any person in a given range. We have made this toy project using arduino and some other sensors. A pre-recorded voice or any other sound is stored on the ISD 1820 voice recorder module. If HC-Sr 04 ultrasonic sensor detects any object in front of it (within 7 inches), then the Arduino digital pin 11 goes high, which is connected to the ISD 1820 module PlayE pin so the 1820 module plays the pre-recorded voice.
